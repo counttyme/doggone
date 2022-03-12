@@ -1,2 +1,2 @@
-<h2>jQuery and AJAX is FUN!!!</h2>
-<p id="p1">This is some text in a paragraph.</p>
+<h2>I am aragorn son of arathorn and i've had a great deal of luck, no orcs with arrows in my path...</h2>
+<p id="p1">My dad was killed by trolls and my subsitute father is doesnt me to marry his daughter. I am only now realizing, that I really may need a therapist. </p>
