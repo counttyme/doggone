@@ -1,2 +1,2 @@
-<h2>I am aragorn son of arathorn and i've had a great deal of luck, no orcs with arrows in my path...</h2>
-<p id="p1">My dad was killed by trolls and my subsitute father is doesnt me to marry his daughter. I am only now realizing, that I really may need a therapist. </p>
+<h2>I am Aragorn son of Arathorn and i'm really lucky, there are never any orcs archers pincushioning me.</h2>
+<p id="p1">Maybe i'm not that lucky. My dad was killed by trolls and my subsitute father doesnt want me to marry my foster sister. I am only now realizing, that I really may need a therapist.</p>
