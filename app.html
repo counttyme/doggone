@@ -15,7 +15,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
         $(document).ready(function(){
-          $("button").click(function(){
+          $("buttonXYZ").click(function(){
             $("#div1").load("demo_test.txt");
           });
         });
@@ -43,32 +43,34 @@
             </div>
         </nav>
 <!------------------------------------------------------------------------------>
- <div class="bg-dark text-white p-5 text-center mt-2 mb-5">
-    <h1>Litepaper</h1>
-</div>       
-<form class="bg-dark text-light">
-    <div class="bg-dark form-floating">
-          <select class="form-select" id="sel1" name="sellist">
-            <option class="bg-dark text-light" id="formTokenOption1">Token W</option>
-            <option class="bg-dark text-light" id="formTokenOption2">Token X</option>
-            <option class="bg-dark text-light" id="formTokenOption3">Token Y</option>
-            <option class="bg-dark text-light" id="formTokenOption4">Token Z</option>
-          </select>
-          <label for="sel1" class="form-label">Select list (select one):</label>
-    </div>
-      <div class="input-group">
-        <span class="input-group-text">@</span>
-        <input type="text" class="form-control" placeholder="Username">
-      </div>
+<div class="container px-lg-5">
+    <div class="bg-dark text-white p-5 text-center mt-2 mb-5">
+        <h1>Litepaper</h1>
+    </div>       
+    <form class="bg-dark text-light">
+        <div class="bg-dark form-floating">
+              <select class="form-select" id="sel1" name="sellist">
+                <option class="bg-dark text-light" id="formTokenOption1">Token W</option>
+                <option class="bg-dark text-light" id="formTokenOption2">Token X</option>
+                <option class="bg-dark text-light" id="formTokenOption3">Token Y</option>
+                <option class="bg-dark text-light" id="formTokenOption4">Token Z</option>
+              </select>
+              <label for="sel1" class="form-label">Select list (select one):</label>
+        </div>
+          <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
 
-      <div class="input-group">
-        <input type="text" class=" bg-darkform-control" placeholder="Your Email">
-        <span class="bg-dark input-group-text">@example.com</span>
-      </div>
-</form>
-<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
-
-<button>Get External Content</button>       
+          <div class="input-group">
+            <input type="text" class=" bg-darkform-control" placeholder="Your Email">
+            <span class="bg-dark input-group-text">@example.com</span>
+          </div>
+    </form>
+    <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+    <button id="buttonXYZ" type="button" class="btn btn-outline-light btn-lg">Get External Content</button>
+    <button>Get External Content</button>    
+</div>    
  <!------------------------------------------------------------------------------>       
         <!-- Page Content-->
         <!-- Footer-->
