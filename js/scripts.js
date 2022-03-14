@@ -52,7 +52,7 @@ function jokeFunction() {
 	document.getElementById("modelBodyTextQuestion").innerHTML = question;
 	document.getElementById("modelBodyTextAnswer").innerHTML = answer;
 }
-
+/*
 $(document).ready(function () {
     $("#xJQ_Submit").click(function (e) {
         var validate = Validate();
@@ -90,4 +90,37 @@ $(document).ready(function () {
         }
         return errorMessage;
     }
+});
+*/
+
+$(document).ready(function () {
+    $("#buttonXYZ").click(function (e) {
+        //var validate = Validate();
+        //$("#xJQ_Message_1").html(validate);
+        if (validate.length == 0) {
+            $.ajax({
+                type: "GET",
+                url: "https://algoindexer.algoexplorerapi.io/health",
+                dataType: "json",
+                success: function (result, status, xhr) {
+                    var table = $("<table><tr><th>AlgoExplorer Health</th></tr>");
+                    table.append("<tr><td>Round:</td><td>" + result["round"] + "</td></tr>");
+                    table.append("<tr><td>Message:</td><td>" + result["message"] + "</td></tr>");
+                    table.append("<tr><td>DB Available:</td><td>" + result["db-available"] + "</td></tr>");
+                    table.append("<tr><td>Is migrating:</td><td>" + result["is-migrating"] + "</td></tr>");
+                    table.append("<tr><td>Version:</td><td>" + result["version"] + "</td></tr>");
+                    $("#xJQ_Message_1").html(table);
+                },
+                error: function (xhr, status, error) {
+                    alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+                }
+            });
+        }
+    });
+    $(document).ajaxStart(function () {
+        $("img").show();
+    });
+    $(document).ajaxStop(function () {
+        $("img").hide();
+    });
 });
