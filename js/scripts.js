@@ -94,7 +94,7 @@ $(document).ready(function () {
 */
 
 $(document).ready(function () {
-    $("#buttonXYZ").click(function (e) {
+    $("#xJQ_Submit").click(function (e) {
 	    $.ajax({
 		type: "GET",
 		url: "https://algoindexer.algoexplorerapi.io/health",
