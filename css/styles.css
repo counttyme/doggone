@@ -12205,3 +12205,69 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+#divCircle1 {
+  z-index: -1;
+  position:fixed; 
+  opacity: 0.15;
+  border-radius: 50%;
+  animation: divCircleMove 15s infinite;
+  width: 68px;
+  height: 68px;
+  top:25%; 
+  animation-timing-function: linear;
+  background-color: blue;
+}
+#divCircle2 {
+  z-index: -1;
+  position:fixed; 
+  opacity: 0.15;
+  border-radius: 50%;
+  animation: divCircleMove 15s infinite;
+  width: 68px;
+  height: 68px;
+  top:40%; 
+  animation-timing-function: ease; 
+  background-color: yellow;
+}
+#divCircle3 {
+  z-index: -1;
+  position:fixed; 
+  opacity: 0.15;
+  border-radius: 50%;
+  animation: divCircleMove 15s infinite;
+  width: 68px;
+  height: 68px;
+  top:50%; 
+  animation-timing-function: ease-in;
+  background-color: green;
+}
+#divCircle4 {
+  z-index: -1;
+  position:fixed; 
+  opacity: 0.15;
+  border-radius: 50%;
+  animation: divCircleMove 15s infinite;
+  width: 68px;
+  height: 68px;
+  top:60%; 
+  animation-timing-function: ease-out;
+  background-color: purple;
+}
+#divCircle5 {
+  z-index: -1;
+  position:fixed; 
+  opacity: 0.15;
+  border-radius: 50%;
+  animation: divCircleMove 15s infinite;
+  width: 68px;
+  height: 68px;
+  top:75%; 
+  animation-timing-function: ease-in-out;
+  background-color: red;
+}
+
+@keyframes divCircleMove {
+from {left: -100px;}
+to {left: 110%;}
+}
