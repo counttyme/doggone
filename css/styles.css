@@ -12278,3 +12278,22 @@ to {left: 110%;}
     visibility: hidden;
   }
 }
+
+#animatedBoxHeader {
+  border: 5px solid black;
+  animation: ABHkeyframes 25s infinite;
+  border-radius: 25px;
+}
+
+@keyframes ABHkeyframes {
+  10% {border: 5px solid white;}
+  20% {border: 5px solid blue;} 
+  30% {border: 5px solid red;}
+  40% {border: 5px solid green;}
+  50% {border: 5px solid purple;}
+  60% {border: 5px solid lightblue;}
+  70% {border: 5px solid yellow;} 
+  80% {border: 5px solid red;}
+  90% {border: 5px solid pink;}
+  100% {border: 5px solid black;}  
+}
