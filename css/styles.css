@@ -12272,8 +12272,8 @@ from {left: -100px;}
 to {left: 110%;}
 }
 
-@media (min-width: 1200px) {
-  #progressBarElement {
+@media (max-width: 1200px) {
+  div#progressBarElement {
     display: none;
     visibility: hidden;
   }
