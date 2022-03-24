@@ -52,7 +52,7 @@ function jokeFunction() {
 	document.getElementById("modelBodyTextQuestion").innerHTML = question;
 	document.getElementById("modelBodyTextAnswer").innerHTML = answer;
 }
-/*
+
 $(document).ready(function () {
     $("#xJQ_Submit").click(function (e) {
         var validate = Validate();
@@ -91,7 +91,6 @@ $(document).ready(function () {
         return errorMessage;
     }
 });
-*/
 
 $(document).ready(function () {
     $("#xJQ_Submit").click(function (e) {
