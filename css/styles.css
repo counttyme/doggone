@@ -12297,3 +12297,35 @@ to {left: 110%;}
   90% {border: 5px solid lightblue;}
   100% {border: 5px solid black;}  
 }
+
+/*!
+
+.css-selector {
+    background: linear-gradient(359deg, #19561b, #000000);
+    background-size: 400% 400%;
+
+    -webkit-animation: testPage 38s ease infinite;
+    -moz-animation: testPage 38s ease infinite;
+    animation: testPage 38s ease infinite;
+}
+
+@-webkit-keyframes testPage {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes testPage {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes testPage {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+ */
+#missionTab:hover {
+  color: gold;
+}
